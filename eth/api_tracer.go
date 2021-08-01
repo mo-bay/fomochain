@@ -21,25 +21,25 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/tomochain/tomochain/tomox/tradingstate"
+	"github.com/69th-byte/sdexchain/tomox/tradingstate"
 	"io/ioutil"
 	"math/big"
 	"runtime"
 	"sync"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/hexutil"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/core/vm"
-	"github.com/tomochain/tomochain/eth/tracers"
-	"github.com/tomochain/tomochain/internal/ethapi"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/rlp"
-	"github.com/tomochain/tomochain/rpc"
-	"github.com/tomochain/tomochain/trie"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/hexutil"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/core/vm"
+	"github.com/69th-byte/sdexchain/eth/tracers"
+	"github.com/69th-byte/sdexchain/internal/ethapi"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/rlp"
+	"github.com/69th-byte/sdexchain/rpc"
+	"github.com/69th-byte/sdexchain/trie"
 )
 
 const (
@@ -567,7 +567,7 @@ func (api *PrivateDebugAPI) computeStateDB(block *types.Block, reexec uint64) (*
 	}
 	size, _ := database.TrieDB().Size()
 	log.Info("Historical state regenerated", "block", block.NumberU64(), "elapsed", time.Since(start), "size", size)
-	return statedb,tomoxState, nil
+	return statedb, tomoxState, nil
 }
 
 // TraceTransaction returns the structured logs created during the execution of EVM

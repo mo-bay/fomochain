@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/tomochain/tomochain/issues/2040
+see https://github.com/69th-byte/sdexchain/issues/2040
 Usage:
 
 import (
- "github.com/tomochain/tomochain/common/httpclient"
- "github.com/tomochain/tomochain/swarm/api/http"
+ "github.com/69th-byte/sdexchain/common/httpclient"
+ "github.com/69th-byte/sdexchain/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

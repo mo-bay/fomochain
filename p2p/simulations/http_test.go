@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/event"
-	"github.com/tomochain/tomochain/node"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/p2p/simulations/adapters"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/event"
+	"github.com/69th-byte/sdexchain/node"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/p2p/simulations/adapters"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

@@ -1,7 +1,7 @@
 package tradingstate
 
 import (
-	"github.com/tomochain/tomochain/common"
+	"github.com/69th-byte/sdexchain/common"
 	"math/big"
 	"reflect"
 	"testing"

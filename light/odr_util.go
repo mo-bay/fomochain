@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 var sha3_nil = crypto.Keccak256Hash(nil)

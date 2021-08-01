@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"encoding/json"
 
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/params"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/params"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

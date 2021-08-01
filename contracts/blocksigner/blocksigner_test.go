@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/accounts/abi/bind"
-	"github.com/tomochain/tomochain/accounts/abi/bind/backends"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/crypto"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind/backends"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/crypto"
 	"math/rand"
 )
 

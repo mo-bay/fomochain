@@ -18,18 +18,18 @@ package downloader
 
 import (
 	"fmt"
-	"github.com/tomochain/tomochain/ethdb/memorydb"
+	"github.com/69th-byte/sdexchain/ethdb/memorydb"
 	"hash"
 	"sync"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/crypto/sha3"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/trie"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/crypto/sha3"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/trie"
 )
 
 // stateReq represents a batch of state fetch requests groupped together into

@@ -36,11 +36,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/math"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/crypto/randentropy"
 	"github.com/pborman/uuid"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/math"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/crypto/randentropy"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 )

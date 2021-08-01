@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/event"
 	ethereum "github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/event"
 )
 
 // Account represents an Ethereum account located at a specific location defined

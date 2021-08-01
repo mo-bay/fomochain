@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

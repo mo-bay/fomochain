@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/tomochain/tomochain/event"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/node"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/event"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/node"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

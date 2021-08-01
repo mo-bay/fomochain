@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/swarm/storage"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/swarm/storage"
 )
 
 const requesterCount = 3

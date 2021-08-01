@@ -18,20 +18,20 @@ package core
 
 import (
 	"crypto/ecdsa"
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"io/ioutil"
 	"math/big"
 	"os"
 	"testing"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/math"
-	"github.com/tomochain/tomochain/consensus/ethash"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/core/vm"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/math"
+	"github.com/69th-byte/sdexchain/consensus/ethash"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/core/vm"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

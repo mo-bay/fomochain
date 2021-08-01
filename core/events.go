@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

@@ -18,9 +18,9 @@ package rawdb
 
 import (
 	"fmt"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/ethdb/leveldb"
-	"github.com/tomochain/tomochain/ethdb/memorydb"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/ethdb/leveldb"
+	"github.com/69th-byte/sdexchain/ethdb/memorydb"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

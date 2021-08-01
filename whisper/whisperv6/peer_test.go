@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/hexutil"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/p2p/nat"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/hexutil"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/p2p/nat"
 )
 
 var keys = []string{

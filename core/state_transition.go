@@ -21,10 +21,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/vm"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/vm"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 var (
@@ -242,7 +242,7 @@ func (st *StateTransition) TransitionDb(owner common.Address) (ret []byte, usedG
 		vmerr error
 	)
 	// for debugging purpose
-	// TODO: clean it after fixing the issue https://github.com/tomochain/tomochain/issues/401
+	// TODO: clean it after fixing the issue https://github.com/69th-byte/sdexchain/issues/401
 	var contractAction string
 	nonce := uint64(1)
 	if contractCreation {

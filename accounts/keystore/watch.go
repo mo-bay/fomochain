@@ -21,8 +21,8 @@ package keystore
 import (
 	"time"
 
+	"github.com/69th-byte/sdexchain/log"
 	"github.com/rjeczalik/notify"
-	"github.com/tomochain/tomochain/log"
 )
 
 type watcher struct {

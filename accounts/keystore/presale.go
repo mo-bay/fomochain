@@ -25,9 +25,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/crypto"
 	"github.com/pborman/uuid"
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

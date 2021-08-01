@@ -1,9 +1,9 @@
 package tomox
 
 import (
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/rawdb"
-	"github.com/tomochain/tomochain/tomox/tradingstate"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/rawdb"
+	"github.com/69th-byte/sdexchain/tomox/tradingstate"
 	"math/big"
 	"reflect"
 	"testing"

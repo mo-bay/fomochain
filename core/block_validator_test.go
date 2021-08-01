@@ -17,15 +17,15 @@
 package core
 
 import (
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"runtime"
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/consensus/ethash"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/core/vm"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/consensus/ethash"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/core/vm"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

@@ -18,23 +18,23 @@ package les
 
 import (
 	"encoding/binary"
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"math/big"
 	"math/rand"
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus/ethash"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/eth/downloader"
-	"github.com/tomochain/tomochain/light"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/params"
-	"github.com/tomochain/tomochain/rlp"
-	"github.com/tomochain/tomochain/trie"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus/ethash"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/eth/downloader"
+	"github.com/69th-byte/sdexchain/light"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/params"
+	"github.com/69th-byte/sdexchain/rlp"
+	"github.com/69th-byte/sdexchain/trie"
 )
 
 func expectResponse(r p2p.MsgReader, msgcode, reqID, bv uint64, data interface{}) error {

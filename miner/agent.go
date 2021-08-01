@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 type CpuAgent struct {

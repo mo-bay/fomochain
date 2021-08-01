@@ -25,17 +25,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/hexutil"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/miner"
-	"github.com/tomochain/tomochain/params"
-	"github.com/tomochain/tomochain/rlp"
-	"github.com/tomochain/tomochain/rpc"
-	"github.com/tomochain/tomochain/trie"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/hexutil"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/miner"
+	"github.com/69th-byte/sdexchain/params"
+	"github.com/69th-byte/sdexchain/rlp"
+	"github.com/69th-byte/sdexchain/rpc"
+	"github.com/69th-byte/sdexchain/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related
@@ -494,11 +494,10 @@ func (api *PublicEthereumAPI) ChainId() hexutil.Uint64 {
 }
 
 // GetOwner return masternode owner of the given coinbase address
-func (api *PublicEthereumAPI) GetOwnerByCoinbase(ctx context.Context, coinbase common.Address, blockNr rpc.BlockNumber) (common.Address,  error) {
+func (api *PublicEthereumAPI) GetOwnerByCoinbase(ctx context.Context, coinbase common.Address, blockNr rpc.BlockNumber) (common.Address, error) {
 	statedb, _, err := api.e.ApiBackend.StateAndHeaderByNumber(ctx, blockNr)
 	if err != nil {
 		return common.Address{}, err
 	}
 	return statedb.GetOwner(coinbase), nil
 }
-

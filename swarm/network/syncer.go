@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/swarm/storage"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

@@ -18,7 +18,7 @@ package vm
 
 import (
 	"fmt"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 // EnableEIP enables the given EIP on the config.

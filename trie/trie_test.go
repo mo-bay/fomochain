@@ -28,12 +28,12 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/ethdb/leveldb"
+	"github.com/69th-byte/sdexchain/ethdb/memorydb"
+	"github.com/69th-byte/sdexchain/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/ethdb/leveldb"
-	"github.com/tomochain/tomochain/ethdb/memorydb"
-	"github.com/tomochain/tomochain/rlp"
 )
 
 func init() {

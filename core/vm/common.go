@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/math"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/internal/ethapi"
-	"github.com/tomochain/tomochain/params"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/internal/ethapi"
+	"github.com/69th-byte/sdexchain/params"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

@@ -19,14 +19,14 @@ package vm
 import (
 	"bytes"
 	"fmt"
-	"github.com/tomochain/tomochain/core/rawdb"
-	"github.com/tomochain/tomochain/params"
-	"github.com/tomochain/tomochain/tomox/tradingstate"
+	"github.com/69th-byte/sdexchain/core/rawdb"
+	"github.com/69th-byte/sdexchain/params"
+	"github.com/69th-byte/sdexchain/tomox/tradingstate"
 	"math/big"
 	"reflect"
 	"testing"
 
-	"github.com/tomochain/tomochain/common"
+	"github.com/69th-byte/sdexchain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

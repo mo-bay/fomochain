@@ -17,12 +17,12 @@
 package vm
 
 import (
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/params"
 	"math/big"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/math"
-	"github.com/tomochain/tomochain/core/types"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/math"
+	"github.com/69th-byte/sdexchain/core/types"
 	"golang.org/x/crypto/sha3"
 )
 

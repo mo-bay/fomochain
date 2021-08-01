@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/rlp"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/rlp"
 )
 
 // peer represents a whisper protocol peer connection.

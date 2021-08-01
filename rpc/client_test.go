@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/69th-byte/sdexchain/log"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tomochain/tomochain/log"
 )
 
 func TestClientRequest(t *testing.T) {

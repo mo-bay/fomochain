@@ -3,17 +3,17 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/tomoxlending/lendingstate"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/tomoxlending/lendingstate"
 	"math/big"
 	"os"
 	"time"
 
-	"github.com/tomochain/tomochain/accounts/abi/bind"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/contracts/tomox"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/ethclient"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/contracts/tomox"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/ethclient"
 )
 
 func main() {

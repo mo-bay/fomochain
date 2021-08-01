@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/ethdb/memorydb"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/ethdb/memorydb"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

@@ -18,16 +18,16 @@ package les
 
 import (
 	"context"
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/eth"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/light"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/eth"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

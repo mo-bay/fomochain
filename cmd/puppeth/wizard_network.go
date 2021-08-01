@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

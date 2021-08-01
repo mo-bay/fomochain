@@ -2,11 +2,11 @@ package core
 
 import (
 	"context"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/ethclient"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/ethclient"
+	"github.com/69th-byte/sdexchain/rpc"
 	"log"
 	"math/big"
 	"strconv"

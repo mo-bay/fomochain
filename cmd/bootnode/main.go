@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/tomochain/tomochain/cmd/utils"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/p2p/discv5"
-	"github.com/tomochain/tomochain/p2p/nat"
-	"github.com/tomochain/tomochain/p2p/netutil"
+	"github.com/69th-byte/sdexchain/cmd/utils"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/p2p/discv5"
+	"github.com/69th-byte/sdexchain/p2p/nat"
+	"github.com/69th-byte/sdexchain/p2p/netutil"
 )
 
 func main() {

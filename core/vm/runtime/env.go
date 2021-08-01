@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/vm"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

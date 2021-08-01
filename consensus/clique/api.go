@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

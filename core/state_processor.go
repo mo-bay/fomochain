@@ -19,21 +19,21 @@ package core
 import (
 	"fmt"
 
-	"github.com/tomochain/tomochain/tomox/tradingstate"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/tomox/tradingstate"
 	"math/big"
 	"runtime"
 	"strings"
 	"sync"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/consensus/misc"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/core/vm"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/consensus/misc"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/core/vm"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

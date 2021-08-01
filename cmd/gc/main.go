@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/tomochain/tomochain/core/rawdb"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/ethdb/leveldb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/ethdb/leveldb"
 	"os"
 	"os/signal"
 	"runtime"
@@ -13,14 +13,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/69th-byte/sdexchain/cmd/utils"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/eth"
+	"github.com/69th-byte/sdexchain/rlp"
+	"github.com/69th-byte/sdexchain/trie"
 	"github.com/hashicorp/golang-lru"
-	"github.com/tomochain/tomochain/cmd/utils"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/eth"
-	"github.com/tomochain/tomochain/rlp"
-	"github.com/tomochain/tomochain/trie"
 )
 
 var (

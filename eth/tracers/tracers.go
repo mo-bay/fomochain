@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/tomochain/tomochain/eth/tracers/internal/tracers"
+	"github.com/69th-byte/sdexchain/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

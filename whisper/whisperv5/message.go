@@ -27,10 +27,10 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/crypto/ecies"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/crypto/ecies"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 // Options specifies the exact way a message should be wrapped into an Envelope.

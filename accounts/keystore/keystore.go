@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/event"
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/event"
 )
 
 var (

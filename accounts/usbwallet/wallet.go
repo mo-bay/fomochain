@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/log"
 	"github.com/karalabe/hid"
 	ethereum "github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

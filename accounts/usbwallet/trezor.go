@@ -27,13 +27,13 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/accounts/usbwallet/internal/trezor"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/hexutil"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/log"
 	"github.com/golang/protobuf/proto"
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/accounts/usbwallet/internal/trezor"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/hexutil"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

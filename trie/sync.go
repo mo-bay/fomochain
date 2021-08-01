@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/prque"
-	"github.com/tomochain/tomochain/ethdb"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/prque"
+	"github.com/69th-byte/sdexchain/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

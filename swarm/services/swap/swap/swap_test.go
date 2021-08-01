@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
+	"github.com/69th-byte/sdexchain/common"
 )
 
 type testInPayment struct {

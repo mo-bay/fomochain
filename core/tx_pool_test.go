@@ -19,8 +19,8 @@ package core
 import (
 	"crypto/ecdsa"
 	"fmt"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"io/ioutil"
 	"math/big"
 	"math/rand"
@@ -28,12 +28,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/event"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/event"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 // testTxPoolConfig is a transaction pool configuration without stateful disk

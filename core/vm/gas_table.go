@@ -18,10 +18,10 @@ package vm
 
 import (
 	"errors"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/params"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/math"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/math"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

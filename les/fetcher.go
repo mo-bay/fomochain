@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/mclock"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/light"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/mclock"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/light"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 const (

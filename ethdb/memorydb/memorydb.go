@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/ethdb"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/ethdb"
 )
 
 var (

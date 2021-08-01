@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/69th-byte/sdexchain/cmd/utils"
+	"github.com/69th-byte/sdexchain/node"
+	"github.com/69th-byte/sdexchain/rpc"
 	"github.com/gizak/termui"
-	"github.com/tomochain/tomochain/cmd/utils"
-	"github.com/tomochain/tomochain/node"
-	"github.com/tomochain/tomochain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

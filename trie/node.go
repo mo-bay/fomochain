@@ -21,8 +21,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 var indices = []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "[17]"}

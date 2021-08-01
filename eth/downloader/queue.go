@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/metrics"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/metrics"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

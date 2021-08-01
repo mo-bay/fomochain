@@ -1,17 +1,17 @@
 package tomox
 
 import (
-	"github.com/tomochain/tomochain/contracts/tomox/contract"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/contracts/tomox/contract"
+	"github.com/69th-byte/sdexchain/log"
 	"math/big"
 	"strings"
 
+	"github.com/69th-byte/sdexchain/accounts/abi"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind/backends"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/core/state"
 	"github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/accounts/abi"
-	"github.com/tomochain/tomochain/accounts/abi/bind/backends"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/core/state"
 )
 
 // GetTokenAbi return token abi

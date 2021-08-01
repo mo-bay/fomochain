@@ -17,15 +17,15 @@
 package main
 
 import (
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"io/ioutil"
 	"math/big"
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 var (

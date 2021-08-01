@@ -35,12 +35,12 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/node"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/node"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/rpc"
 	"golang.org/x/net/websocket"
 )
 

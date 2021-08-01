@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/crypto/sha3"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/crypto/sha3"
 )
 
 // OrderSigner interface for order transaction

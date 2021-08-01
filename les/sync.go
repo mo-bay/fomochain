@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/eth/downloader"
-	"github.com/tomochain/tomochain/light"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/eth/downloader"
+	"github.com/69th-byte/sdexchain/light"
 )
 
 const (

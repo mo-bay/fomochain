@@ -25,11 +25,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/p2p/nat"
-	"github.com/tomochain/tomochain/p2p/netutil"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/p2p/nat"
+	"github.com/69th-byte/sdexchain/p2p/netutil"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 const Version = 4

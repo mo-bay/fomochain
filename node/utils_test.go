@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

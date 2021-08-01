@@ -19,7 +19,7 @@ package tradingstate
 import (
 	"sync"
 
-	"github.com/tomochain/tomochain/common"
+	"github.com/69th-byte/sdexchain/common"
 )
 
 type exchanges struct {

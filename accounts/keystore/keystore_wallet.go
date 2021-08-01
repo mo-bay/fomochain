@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/core/types"
 	ethereum "github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

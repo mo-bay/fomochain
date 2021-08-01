@@ -28,12 +28,12 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/69th-byte/sdexchain/internal/jsre"
+	"github.com/69th-byte/sdexchain/internal/web3ext"
+	"github.com/69th-byte/sdexchain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
-	"github.com/tomochain/tomochain/internal/jsre"
-	"github.com/tomochain/tomochain/internal/web3ext"
-	"github.com/tomochain/tomochain/rpc"
 )
 
 var (

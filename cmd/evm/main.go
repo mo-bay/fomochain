@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/tomochain/tomochain/cmd/utils"
+	"github.com/69th-byte/sdexchain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

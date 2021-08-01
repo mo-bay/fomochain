@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/p2p/simulations"
-	"github.com/tomochain/tomochain/p2p/simulations/adapters"
-	"github.com/tomochain/tomochain/rpc"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/p2p/simulations"
+	"github.com/69th-byte/sdexchain/p2p/simulations/adapters"
+	"github.com/69th-byte/sdexchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/eth/downloader"
-	"github.com/tomochain/tomochain/p2p"
-	"github.com/tomochain/tomochain/p2p/discover"
+	"github.com/69th-byte/sdexchain/eth/downloader"
+	"github.com/69th-byte/sdexchain/p2p"
+	"github.com/69th-byte/sdexchain/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/accounts/keystore"
-	"github.com/tomochain/tomochain/cmd/utils"
-	"github.com/tomochain/tomochain/console"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/accounts/keystore"
+	"github.com/69th-byte/sdexchain/cmd/utils"
+	"github.com/69th-byte/sdexchain/console"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

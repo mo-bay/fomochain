@@ -19,21 +19,21 @@ package miner
 
 import (
 	"fmt"
-	"github.com/tomochain/tomochain/tomoxlending"
+	"github.com/69th-byte/sdexchain/tomoxlending"
 	"sync/atomic"
 
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/core/state"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/eth/downloader"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/event"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/params"
-	"github.com/tomochain/tomochain/tomox"
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/core/state"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/eth/downloader"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/event"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/params"
+	"github.com/69th-byte/sdexchain/tomox"
 )
 
 // Backend wraps all methods required for mining.

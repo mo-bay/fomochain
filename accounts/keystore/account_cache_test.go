@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/69th-byte/sdexchain/accounts"
+	"github.com/69th-byte/sdexchain/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/tomochain/tomochain/accounts"
-	"github.com/tomochain/tomochain/common"
 )
 
 var (

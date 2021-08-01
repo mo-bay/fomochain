@@ -27,10 +27,10 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/node"
+	"github.com/69th-byte/sdexchain/p2p/discover"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/node"
-	"github.com/tomochain/tomochain/p2p/discover"
 )
 
 // DockerAdapter is a NodeAdapter which runs simulation nodes inside Docker

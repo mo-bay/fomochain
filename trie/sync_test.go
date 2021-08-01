@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/ethdb/memorydb"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/ethdb/memorydb"
 )
 
 // makeTestTrie create a sample test trie to test Node-wise reconstruction.

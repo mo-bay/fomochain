@@ -5,8 +5,8 @@
 package tomoxDAO
 
 import (
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/ethdb"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/ethdb"
 )
 
 const defaultCacheLimit = 1024

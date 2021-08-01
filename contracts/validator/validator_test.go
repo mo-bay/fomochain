@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/accounts/abi/bind"
-	"github.com/tomochain/tomochain/accounts/abi/bind/backends"
-	"github.com/tomochain/tomochain/common"
-	contractValidator "github.com/tomochain/tomochain/contracts/validator/contract"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind/backends"
+	"github.com/69th-byte/sdexchain/common"
+	contractValidator "github.com/69th-byte/sdexchain/contracts/validator/contract"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 var (

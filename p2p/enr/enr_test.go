@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/rlp"
 )
 
 var (

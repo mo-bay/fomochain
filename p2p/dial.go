@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/p2p/discover"
-	"github.com/tomochain/tomochain/p2p/netutil"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/p2p/discover"
+	"github.com/69th-byte/sdexchain/p2p/netutil"
 )
 
 const (

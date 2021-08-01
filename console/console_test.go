@@ -19,20 +19,20 @@ package console
 import (
 	"bytes"
 	"errors"
-	"github.com/tomochain/tomochain/tomox"
-	"github.com/tomochain/tomochain/tomoxlending"
+	"github.com/69th-byte/sdexchain/tomox"
+	"github.com/69th-byte/sdexchain/tomoxlending"
 	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/consensus/ethash"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/eth"
-	"github.com/tomochain/tomochain/internal/jsre"
-	"github.com/tomochain/tomochain/node"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/consensus/ethash"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/eth"
+	"github.com/69th-byte/sdexchain/internal/jsre"
+	"github.com/69th-byte/sdexchain/node"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/hex"
 	"errors"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/rawdb"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/rawdb"
 	"sync"
 
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/log"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/log"
 )
 
 type BatchItem struct {

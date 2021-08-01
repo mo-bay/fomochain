@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/common/mclock"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

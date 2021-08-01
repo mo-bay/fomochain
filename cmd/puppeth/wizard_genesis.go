@@ -24,22 +24,22 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/params"
 
 	"context"
 	"math/big"
 
-	"github.com/tomochain/tomochain/accounts/abi/bind"
-	"github.com/tomochain/tomochain/accounts/abi/bind/backends"
-	blockSignerContract "github.com/tomochain/tomochain/contracts/blocksigner"
-	multiSignWalletContract "github.com/tomochain/tomochain/contracts/multisigwallet"
-	randomizeContract "github.com/tomochain/tomochain/contracts/randomize"
-	validatorContract "github.com/tomochain/tomochain/contracts/validator"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind"
+	"github.com/69th-byte/sdexchain/accounts/abi/bind/backends"
+	blockSignerContract "github.com/69th-byte/sdexchain/contracts/blocksigner"
+	multiSignWalletContract "github.com/69th-byte/sdexchain/contracts/multisigwallet"
+	randomizeContract "github.com/69th-byte/sdexchain/contracts/randomize"
+	validatorContract "github.com/69th-byte/sdexchain/contracts/validator"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/rlp"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

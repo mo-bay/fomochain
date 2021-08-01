@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tomochain/tomochain/accounts/keystore"
-	"github.com/tomochain/tomochain/core/types"
+	"github.com/69th-byte/sdexchain/accounts/keystore"
+	"github.com/69th-byte/sdexchain/core/types"
 )
 
 // Tests that the account management snippets work correctly.

@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/tomochain/tomochain/accounts/abi"
+import "github.com/69th-byte/sdexchain/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

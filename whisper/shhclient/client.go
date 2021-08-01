@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
+	"github.com/69th-byte/sdexchain/common/hexutil"
+	"github.com/69th-byte/sdexchain/rpc"
+	whisper "github.com/69th-byte/sdexchain/whisper/whisperv6"
 	"github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/common/hexutil"
-	"github.com/tomochain/tomochain/rpc"
-	whisper "github.com/tomochain/tomochain/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

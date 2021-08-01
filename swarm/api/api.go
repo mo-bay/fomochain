@@ -30,10 +30,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/metrics"
-	"github.com/tomochain/tomochain/swarm/storage"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/metrics"
+	"github.com/69th-byte/sdexchain/swarm/storage"
 )
 
 var hashMatcher = regexp.MustCompile("^[0-9A-Fa-f]{64}")

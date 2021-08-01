@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/tomochain/tomochain/metrics"
-	"github.com/tomochain/tomochain/p2p"
+	"github.com/69th-byte/sdexchain/metrics"
+	"github.com/69th-byte/sdexchain/p2p"
 )
 
 var (

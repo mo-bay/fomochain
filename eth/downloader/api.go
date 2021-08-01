@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
+	"github.com/69th-byte/sdexchain/event"
+	"github.com/69th-byte/sdexchain/rpc"
 	ethereum "github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/event"
-	"github.com/tomochain/tomochain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

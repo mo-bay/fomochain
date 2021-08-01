@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/69th-byte/sdexchain/accounts/abi"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/core/types"
+	"github.com/69th-byte/sdexchain/crypto"
+	"github.com/69th-byte/sdexchain/event"
 	"github.com/tomochain/tomochain"
-	"github.com/tomochain/tomochain/accounts/abi"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/core/types"
-	"github.com/tomochain/tomochain/crypto"
-	"github.com/tomochain/tomochain/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

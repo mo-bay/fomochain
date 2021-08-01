@@ -18,9 +18,9 @@ package tradingstate
 
 import (
 	"fmt"
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/log"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/log"
+	"github.com/69th-byte/sdexchain/rlp"
 	"io"
 	"math/big"
 )

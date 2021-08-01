@@ -17,8 +17,8 @@
 package lendingstate
 
 import (
-	"github.com/tomochain/tomochain/common"
-	"github.com/tomochain/tomochain/rlp"
+	"github.com/69th-byte/sdexchain/common"
+	"github.com/69th-byte/sdexchain/rlp"
 	"io"
 	"math/big"
 )

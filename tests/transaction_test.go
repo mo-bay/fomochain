@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tomochain/tomochain/params"
+	"github.com/69th-byte/sdexchain/params"
 )
 
 func TestTransaction(t *testing.T) {

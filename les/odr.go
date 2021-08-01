@@ -19,10 +19,10 @@ package les
 import (
 	"context"
 
-	"github.com/tomochain/tomochain/core"
-	"github.com/tomochain/tomochain/ethdb"
-	"github.com/tomochain/tomochain/light"
-	"github.com/tomochain/tomochain/log"
+	"github.com/69th-byte/sdexchain/core"
+	"github.com/69th-byte/sdexchain/ethdb"
+	"github.com/69th-byte/sdexchain/light"
+	"github.com/69th-byte/sdexchain/log"
 )
 
 // LesOdr implements light.OdrBackend
